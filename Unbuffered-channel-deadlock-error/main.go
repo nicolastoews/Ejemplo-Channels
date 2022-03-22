@@ -8,6 +8,6 @@ func main() {
 	//ca es una variable
 	ca <- 42 //Con esta linea decimos que le mandamos al canal llamado ca, el valor 42
 
-	fmt.Println(ca)
+	fmt.Println(<-ca)
 
 }
